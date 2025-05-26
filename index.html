@@ -12,15 +12,15 @@
     <style>
         .contenido {
             font-family: 'Marck Script', cursive;
-            font-size: 1.2em;
+            font-size: 1.5em;
             color: #333;
             background-color: #fff;
-            padding: 25px;
+            padding: 30px;
             border-radius: 3px;
             box-shadow: 0 0 5px rgba(0,0,0,0.05);
         }
         .contenido strong {
-            font-size: 1.3em;
+            font-size: 1.4em;
             display: block;
             margin-bottom: 15px;
             color: #666;
@@ -43,11 +43,12 @@
                 font-size: 2em;
                 margin-bottom: 30px;
             }
-            .contenedor {
-                width: 350px;
+            .contenido {
+                font-size: 1.3em;
+                padding: 25px;
             }
-            .sobre {
-                width: 350px;
+            .contenido strong {
+                font-size: 1.3em;
             }
         }
 
@@ -56,14 +57,19 @@
                 font-size: 1.8em;
                 margin-bottom: 25px;
             }
-            .contenedor {
-                width: 300px;
+             .contenedor {
+                width: 90%; /* Use percentage for better adaptation */
+                /* Remove margin: 0 auto; rely on body flexbox */
             }
             .sobre {
-                width: 300px;
+                width: 100%; /* Ensure sobre takes full width of the container */
             }
             .contenido {
-                font-size: 1em;
+                font-size: 1.2em;
+                padding: 20px;
+            }
+            .contenido strong {
+                font-size: 1.2em;
             }
         }
     </style>
